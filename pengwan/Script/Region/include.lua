@@ -1,0 +1,5 @@
+dofile("Region\\Region_Create.lua")
+dofile("Region\\Region_Event.lua")
+dofile("Region\\DR_Conf.lua")
+dofile("Region\\Region_Story.lua")
+dofile("Region\\Region_Conf.lua")

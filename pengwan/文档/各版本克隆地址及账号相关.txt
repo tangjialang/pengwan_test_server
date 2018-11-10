@@ -1,0 +1,37 @@
+lua书写规范以及优化经验总结:F:\server_ii---神创\ZoneServer\Script
+\Lua开发规范（必读）.docx
+\lua书写规范.txt
+\lua优化总结.txt
+
+
+神创简体服务端hg       \\192.168.1.16\bin_ii
+神创简体客户端svn   svn://192.168.1.12/rpgProjectStarling/boot3
+
+神创繁体体版本hg    \\192.168.1.215\server_ii_ft
+神创繁体客户端
+
+svn 找肖毅开账号
+vss 找李毅开账号
+
+服务端账号找孙超 先用GeTMAC.exe 找到自己mac地址,孙超给的文件放在C:\WINDOWS目录下
+需要修改服务端:
+F:\server_ii---神创\LoginServer\LoginServer.ini   id等安排,name填孙超给的文件名字
+	ID=1001003
+	OPENID=1001003
+	NAME=WANGKANG
+F:\server_ii---神创\DBServer\databaseserver.ini
+	UNIQUEID=1003,LoginServer.ini下id的后4位
+
+F:\server_ii---神创\ZoneServer\server.ini
+	IP=192.168.1.24    --自己ip
+	NAME=PWWANGKANG
+
+客户端使用:
+F:\boot3\bin-debug\请用这个登录哟.html
+查找ip  找到ip=192.168.1.24&uid=pengwan100    有3个
+ip代表连接到哪台服务器 uid=pengwan100  后面数字代表账号
+
+rtx设置:
+服务器地址 192.168.1.22
+端口 8000
+企业总机号 74288221

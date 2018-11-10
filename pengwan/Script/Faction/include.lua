@@ -1,0 +1,8 @@
+dofile 'Faction\\Faction_System.lua'
+dofile 'Faction\\Faction_Build.lua'
+dofile 'Faction\\Faction_Skill.lua'
+dofile 'Faction\\Faction_Diplomacy.lua'
+dofile 'Faction\\Faction_Treasure.lua'
+dofile 'Faction\\Faction_Auto.lua'
+dofile 'Faction\\message.lua'
+dofile 'Faction\\Faction_yunbiao.lua'
